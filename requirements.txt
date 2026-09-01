@@ -1,6 +1,6 @@
-feedparser
-google-genai
-python-dotenv
-schedule
-pytz
 flask
+google-genai
+feedparser
+pytz
+python-dotenv
+werkzeug

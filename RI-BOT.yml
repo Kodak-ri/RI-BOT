@@ -4,26 +4,18 @@
 # RI-BOT
 # 
 
+
 services:
   ri-relatorios:
     build: .
     container_name: curadoria_ri_service
     restart: unless-stopped
     ports:
-      - "5000:5000"
+      - "5050:5000"
     volumes:
       - /srv/mergerfs/pool_koda/docker_data/RI-BOT/data:/app/data
-    environment:
-      - TZ=America/Sao_Paulo
-      - GEMINI_API_KEY=AQ.Ab8RN6KNsKnJb5wKJpJ2NmiyqFe-qJg7SG8SJlnJNAUptyGtmg
-      - GEMINI_MODEL=gemini-3.5-flash-lite
-      - SMTP_SERVER=smtp.gmail.com
-      - SMTP_PORT=587
-      - EMAIL_SENDER=koda.bot.ri@gmail.com
-      - EMAIL_PASSWORD=xxtu eujp dlpi dlrv
-      - EMAIL_RECEIVER=raphael.sparvoli@unesp.br,gt.almeida@unesp.br,raphinhafilho@hotmail.com,victoria.e.santos@unesp.br,renata.yatsu@unesp.br,henrry.smarzaro@unesp.br
-      - SCHEDULE_TIME=07:00
-      - RUN_ON_STARTUP=true
+    env_file:
+      - .env
     logging:
       driver: "json-file"
       options:
