@@ -1,0 +1,69 @@
+{
+  "koda.bot.ri@gmail.com": {
+    "nome": "Kodak",
+    "email": "koda.bot.ri@gmail.com",
+    "senha_hash": "scrypt:32768:8:1$pxa9MqZPePWF76QL$75bfb415e6d4c57cf865e11cc4c41cf19e6d117be1c442ab5d3769b8d307b3642d1bb11e006465a8aca77683292b0b910ca584ac4a886a0285b92b4da3f8484f",
+    "role": "admin",
+    "termos": [],
+    "horarios": [
+      "07:00",
+      "13:00"
+    ],
+    "ativo": true
+  },
+  "raphael.sparvoli@unesp.br": {
+    "nome": "Raphael",
+    "email": "raphael.sparvoli@unesp.br",
+    "senha_hash": "scrypt:32768:8:1$dEIGFYJonJt3t7km$93019558b663604c663e4eeb0099ff079d05e2b6d6b74e1c01525a6f993c03302b371bc9c6ec6037b765975c98d0accbf7ddd8912ea0e49daed66a3b4bcdb3f6",
+    "role": "user",
+    "termos": [],
+    "horarios": [
+      "07:00"
+    ],
+    "ativo": true
+  },
+  "gt.almeida@unesp.br": {
+    "nome": "Gabi",
+    "email": "gt.almeida@unesp.br",
+    "senha_hash": "scrypt:32768:8:1$VUj8dcAgiHMORvHA$496690f2b9e7da2a0744a4b0fae722ece8913679bb3e9f3215a6db8f61da5283de8f7d72bb385598f1eedecf9911310805a5a3a73a38ac1a49be659896452585",
+    "role": "user",
+    "termos": [
+      "geopolitica"
+    ],
+    "horarios": [
+      "07:00"
+    ],
+    "ativo": true
+  },
+  "henrry.smarzaro@unesp.br": {
+    "nome": "Henrry Smarzaro",
+    "email": "henrry.smarzaro@unesp.br",
+    "senha_hash": "scrypt:32768:8:1$JokJCr2I774igvR1$ed5b74adef9ed4e7e75f4c6f4598025f9767af799639497afbf6a92f262caf723037d91e91a425decc731d79ae2ce6a821f3ace0b7c38b1d899135316212bc82",
+    "role": "user",
+    "termos": [
+      "geopolitica",
+      "brics"
+    ],
+    "horarios": [
+      "07:00"
+    ],
+    "ativo": true
+  },
+  "henrry.smar@gmail.com": {
+    "nome": "BICHA LOKA",
+    "email": "henrry.smar@gmail.com",
+    "senha_hash": "scrypt:32768:8:1$wikKuMiRtIig5QMT$88b7fb2e2dec058f1f285b31edc13abbd4eaf067c73f0ba91ee33ca69fb151f814e802efebd5fadead7f4c2216e12d2bb24814e67a0f5c1ba421f6ffe981e3cb",
+    "role": "user",
+    "termos": [
+      "geopolitica",
+      "brics",
+      "russia",
+      "netanyahu"
+    ],
+    "horarios": [
+      "07:00",
+      "16:41"
+    ],
+    "ativo": true
+  }
+}
